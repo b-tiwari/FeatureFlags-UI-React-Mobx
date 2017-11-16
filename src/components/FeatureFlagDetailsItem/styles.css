@@ -1,0 +1,31 @@
+.label{
+  background-color: #EFEEEE;
+}
+
+.iconsBox {
+  border: 1px solid #CDCBCB;
+  padding: 5px;
+}
+
+.listCell {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.container .listRow {
+  border-width: 1px 1px 0 1px; 
+  border-style: solid solid none solid;
+  border-color: #CDCCCC;
+}
+
+.container .listRow:first-child { 
+  border-bottom: none;
+} 
+
+.container .listRow:last-child { 
+  border-bottom: 1px solid #CDCCCC;
+}
+
+.container .listRow:hover {
+  background-color: #CDCCCC;
+}

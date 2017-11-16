@@ -1,0 +1,48 @@
+.successText {
+  color: #5ADF70
+}
+
+.errorText {
+  color: #DF8B5A
+}
+
+.p-0-5{
+  padding: 0 5px;
+}
+
+.p-10-0 {
+  margin: 10px 0;
+}
+.fs20 {
+  font-size: 20px;
+}
+
+.fs40 {
+  font-size: 40px;
+}
+
+.sectionContainer{
+  padding: 40px 20px;
+}
+
+.sectionHeader {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #970805;
+}
+
+.enabledForContainer {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #F7F7F7;
+}
+
+
+.ff-input {
+  padding: 10px 20px;
+  line-height: 1.5rem !important;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}

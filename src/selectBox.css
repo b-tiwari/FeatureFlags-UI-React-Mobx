@@ -1,0 +1,60 @@
+.select {
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+}
+
+.select select {
+  outline: none;
+  -webkit-appearance: none;
+  display: block;
+  padding: 0.7em 2em 0.7em 1.1em;
+  margin: 0;
+
+  transition: border-color 0.2s;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+
+  background: #fff;
+  color: #555;
+  line-height: normal;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.select.warning select{
+  background-color: #F4C677;
+}
+
+.select .arr {
+  background: inherit;
+  bottom: 5px;
+  position: absolute;
+  right: -3px;
+  top: 5px;
+  width: 1px;
+  pointer-events: none;
+}
+.select .arr:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -5px;
+  pointer-events: none;
+  border-top: 10px solid #555;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.select .arr:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  margin-top: -5px;
+  pointer-events: none;
+  border-top: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}

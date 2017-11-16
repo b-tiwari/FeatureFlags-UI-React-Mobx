@@ -1,0 +1,20 @@
+.menuLink
+{
+	position: relative;
+	padding: 5px 40px;
+  margin: 0px 5px 5px 0px;
+  float: left;
+	border-radius: 10px;
+	font-size: 18px;
+	color: #FFF;
+  text-decoration: none;
+  background-color: #615F5A;
+
+}
+
+.menuLink:hover
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  color:#EEEF99;
+}
